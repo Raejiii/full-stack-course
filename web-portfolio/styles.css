@@ -1,0 +1,77 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,main,footer {
+    max-width:800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+main,section {
+    display:flex;
+    flex-direction: column;
+}
+main {
+    gap: 4rem;
+}
+
+section {
+    gap: 2rem;
+}
+
+.intro-description {
+    max-width: 550px;
+}
+
+.links-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.color-div {
+    display: flex;
+    gap: 1rem;
+   flex-direction: column;
+}
+
+.cards-grid {
+  display:flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.tech-list {
+    display: flex;
+
+}
+
+.tech-list div {
+    padding: 0.1rem 0.5rem;
+    border-radius: var(--border-radius-small);
+    
+}
